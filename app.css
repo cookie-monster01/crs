@@ -282,7 +282,7 @@ h3 {
 }
 
 .section__intro {
-    padding: 105px 0 80px;
+    padding: 105px 0 85px;
 }
 
 
@@ -431,7 +431,7 @@ h3 {
     .section__final--width {
         width: 63%;
     }
-    
+
     .sidebar {
         display: flex;
         flex-direction: column;

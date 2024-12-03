@@ -110,9 +110,6 @@ label {
 }
 
 .font__m {
-    /* font-size: clamp(0.95rem, 0.868rem + .39vw, 1.125rem); */
-    /* font-size: clamp(0.9rem, 0.796rem + .47vw, 1.125rem); */
-    /* font-size: clamp(0.925rem, 0.833rem + .43vw, 1.125rem); */
     font-size: clamp(0.935rem, 0.847rem + .41vw, 1.125rem);
 }
 
@@ -150,12 +147,12 @@ h3 {
 
 .nav__link {
     text-decoration: none;
-    color: hsla(0, 0%, 100%, 0.8);
+    color: hsla(0, 0%, 100%, 0.95);
 }
 
 .nav__link:hover,
 .nav__link:focus-visible {
-    opacity: 0.65;
+    opacity: 0.75;
 }
 
 .logo {
@@ -171,7 +168,7 @@ h3 {
 
 .header {
     background: var(--color-black);
-    padding: 1em 0;
+    padding: 1.25em 0;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -248,7 +245,7 @@ h3 {
     font-family: "Oswald", sans-serif;
     font-size: 1.125rem;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .nav__item {
